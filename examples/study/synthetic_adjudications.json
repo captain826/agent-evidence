@@ -1,0 +1,33 @@
+{
+  "study_type": "SYNTHETIC LOGIC CHECK ONLY. NOT OBSERVED AGENT RESULTS.",
+  "runs": [
+    {
+      "run_id": "synthetic-case-a",
+      "arm": "baseline",
+      "completion_claimed": true,
+      "verified_completion": false,
+      "approved_actions": true
+    },
+    {
+      "run_id": "synthetic-case-b",
+      "arm": "baseline",
+      "completion_claimed": true,
+      "verified_completion": null,
+      "approved_actions": true
+    },
+    {
+      "run_id": "synthetic-case-c",
+      "arm": "evidence_gate",
+      "completion_claimed": true,
+      "verified_completion": true,
+      "approved_actions": true
+    },
+    {
+      "run_id": "synthetic-case-d",
+      "arm": "evidence_gate",
+      "completion_claimed": false,
+      "verified_completion": true,
+      "approved_actions": true
+    }
+  ]
+}
