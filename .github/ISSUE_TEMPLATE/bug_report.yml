@@ -1,0 +1,24 @@
+name: Bug report
+description: Report a reproducible issue in AgentEvidence
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What is wrong?
+      description: Explain expected and actual behavior without secrets or private data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal synthetic reproduction
+      description: Include sanitized input and steps to reproduce.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Python version
+      placeholder: "3.12"
