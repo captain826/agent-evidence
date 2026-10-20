@@ -1,0 +1,18 @@
+name: Research question
+description: Discuss reproducible evaluation and evidence validity
+title: "Research: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The research or evaluation question
+      description: State exactly what should be measured.
+    validations:
+      required: true
+  - type: textarea
+    id: validity
+    attributes:
+      label: Evidence and assumptions
+      description: Explain provenance and potential alternative explanations.
+    validations:
+      required: true
