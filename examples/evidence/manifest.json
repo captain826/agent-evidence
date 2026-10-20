@@ -1,0 +1,9 @@
+{
+  "artifacts": [
+    {
+      "path": "sample.log",
+      "sha256": "3ca9e3c9d40ada78c6c89881e4ac485f6bd7853db469a873a56914d8134cf693",
+      "size": 72
+    }
+  ]
+}
