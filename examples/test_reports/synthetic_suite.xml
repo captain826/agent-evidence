@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="example-suite" tests="3">
+    <testcase classname="demo.Unit" name="works"/>
+    <testcase classname="demo.Unit" name="regression_check"/>
+    <testcase classname="demo.Unit" name="not_verified"><failure message="Synthetic example only"/></testcase>
+  </testsuite>
+</testsuites>
